@@ -12,7 +12,7 @@
 * each person write a question and observation on canvas
 
 ## Description
-For this assignment you will be building a Bitmap reader and transformer. It will read a Bitmap in from disk, run one or more color transforms on the bitmap and then write it out to a new file. This project will require the use of node buffers in order to manipulate binary data. Your project should include tests, as well as a package.json file, eslintrc, README.md, and a .gitignore. Make sure to run all your code through eslint. The process will look something like this:
+For this assignment you will be building a Bitmap reader and transformer. It will read a Bitmap in from disk, run one or more color transforms on the bitmap and then write it out to a new file. This project will require the use of node buffers in order to manipulate binary data. Your project should include a package.json file, eslintrc, README.md, and a .gitignore. Make sure to run all your code through eslint. The process will look something like this:
 
 1. open file using fs and read it into a buffer
 2. convert buffer headers data into a Javascript Object (using constructors)
@@ -36,7 +36,7 @@ The wikipedia article found here [Bitmap Specification](https://en.wikipedia.org
 * can handle various sized bitmaps
 
 #### Rubric:
-* Tests: 3pts
+* Tests: 3pts // freebee
 * Package.json 2pts
 * Read Bitmap Meta Data 5pts
 * Successfully Apply Transform 5pts
