@@ -26,6 +26,13 @@ The wikipedia article found here [Bitmap Specification](https://en.wikipedia.org
   * Grayscale the colors - Google it.
   * (red|green|blue)scale the colors, same as above but only multiply one of the colors.
 
+## Other notes
+- will be working with an 8-bit bitmap
+- bitmap header 14 bytes
+- dib header 40 bytes
+- color table 1024 bytes
+- pixel array 1 byte per pixel of file
+
 ## Bonus Points:
 
 * Can handle palette and non-palette bitmaps
